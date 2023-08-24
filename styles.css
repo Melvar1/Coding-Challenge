@@ -1,0 +1,98 @@
+body{
+  margin: 50px;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: extra x-large;
+}
+
+h2{
+  font-size: medium;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 180px;
+  height: 160px;
+  border: 4px solid black;
+  margin-right: 10px;
+  margin: 0 -175px;
+}
+
+#box1 {
+  background-color: red;
+}
+
+#box2 {
+  background-color: blue;
+  border: 4px dashed yellow;
+}
+
+#box3 {
+  background-color: green;
+  border: 4px solid rgb(255, 91, 118);
+}
+
+.underlined-text {
+  text-decoration: underline;
+}
+
+.green-text {
+  color: lightgreen;
+}
+
+.red-text {
+  color: red;
+}
+
+
+
+.btn{
+  font-size: 14px;
+  padding: 10px 10px;
+  margin: 0px; 
+  width: 150px;
+}
+
+
+
+.button-container{
+  text-align: center; 
+  padding: 5px 20px;
+  flex-wrap: wrap;
+  gap: 30px; 
+  justify-content: space-evenly; 
+}
+
+.reset-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-top: 20px; 
+  margin-right: 208px;
+  margin-left: 218px;
+}
+
+.change-button {
+  margin-right: 8px;
+  margin-left: 9px;
+}
+
+.hide-button {
+  margin-left: 15px; /* Adjust this value to increase the space */
+  margin-right: 5px;
+}
